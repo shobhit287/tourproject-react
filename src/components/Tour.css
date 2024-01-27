@@ -1,0 +1,15 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+h2{
+    color:black;
+    font-size: 3rem;
+    border: dotted 3px black;
+    padding: 10px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,48 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    gap:50px;
+    flex-wrap: wrap;
+    background-color: transparent;
+    margin-top:6%;
+    padding:10px;
+    
+}
+h5{
+    color: rgb(57, 196, 57);
+    font-size: 2rem;
+}
+img{
+    aspect-ratio: 3/2;
+}
+.card_info{
+    display: flex;
+    flex-direction:column;
+    padding: 3%;
+    justify-content: center;
+    max-width: 20vw;
+    box-shadow: 3px 6px 31px 8px rgba(0,0,0,0.87);
+}
+.card_info:hover{
+    transform: scale(1.05);
+}
+button{
+    border:solid 1px  blanchedalmond;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color:  blanchedalmond;
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+span{
+    color:green;
+    margin-left:10px;
+
+}
+span:hover{
+    cursor: pointer;
+}
